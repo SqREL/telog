@@ -13,8 +13,8 @@
   :aliases {"newpost" ["run" "-m" "telog.generator/newpost"]}
   :profiles {
     :uberjar {
-      :aot          [grumpy.server]
-      :uberjar-name "grumpy.jar"
+      :aot          [telog.server]
+      :uberjar-name "telog.jar"
       :auto-clean   false
     }
     :dev {
